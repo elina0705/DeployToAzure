@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= 'Discography'
+  h2= 'Albums'
+  ul
+    each album in albums
+      li= album.year + ' ' + album.name
+  h2= 'Singles'
+  ul
+    each single in singles
+      li= single.year + ' ' + single.name
+

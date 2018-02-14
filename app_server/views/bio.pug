@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= 'Biography'
+  ul
+    each fact in facts
+      li= fact.fact
+
