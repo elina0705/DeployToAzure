@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Verdana";
+  background-color: #EEEEEE;
+}
+
+
+a {
+  text-decoration: none;
+  color: #ff4d94;
+  transition: all .1s linear .1s;
+}
+a:hover
+{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+ul
+{
+  list-style-type:circle;
+}
