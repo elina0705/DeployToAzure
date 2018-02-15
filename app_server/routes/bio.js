@@ -4,6 +4,6 @@ const router = express.Router();
 const ctrlBio = require('../controllers/ctrlBio');
 
 /* GET home page. */
-router.get('/', ctrlBio.container);
+router.get('/', ctrlBio.contain);
 
 module.exports = router;

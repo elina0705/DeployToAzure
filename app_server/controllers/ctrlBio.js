@@ -1,5 +1,5 @@
 /* GET home page */
-const container = function (req, res) {
+const contain = function (req, res) {
     res.render('bio', {
         facts:
             [
@@ -11,5 +11,5 @@ const container = function (req, res) {
     });
 };
 module.exports = {
-    container
+    contain
 };
